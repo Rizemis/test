@@ -1,0 +1,300 @@
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+body {
+  margin: 8px;
+  background-color: rgb(243, 243, 243);
+}
+
+ /* */
+
+.gallery_preview {
+   width: 300px;
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+   border-radius: 25px;
+   margin: 25px;
+   text-align: center;
+ }
+ .gallery-image {
+   width: 300px;
+   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+   border-radius: 25px;
+ }  
+ .buttons {
+  font-family: Spectral;
+  font-size: 25px;
+  font-weight: 200;
+  color: rgb(75, 75, 75);
+  margin: 10px;
+  margin-top: 15px;
+  background-color: rgb(238, 238, 238);
+  border-color: rgb(239, 239, 239);
+  border-radius: 5px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.1s,
+     margin 0.1s;
+  }
+ .buttons:hover {
+ box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
+ }
+ .buttons:active {
+   margin-top: 25px;
+   margin-left: 15px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   box-shadow: none;
+ }
+ .galleries {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .divider {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: rgb(238, 238, 238);
+  height: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .gallery_title {
+  font-family: Spectral;
+ }
+ .gallery_head {
+  background-color:rgb(235, 235, 235);
+  border-radius: 10px;
+  font-family: Spectral;
+  padding: 5px;
+ }
+
+ .gallery-grid {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1;
+ }
+ .gallery-entry {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0px;
+  background-color: rgb(235, 235, 235);
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 15px;
+  padding: 5px;
+ }
+ .entry-photo{
+  width: 100%;
+ }
+ .photos {
+  height: 275px;
+  border-radius: 10px;
+ }
+ .entry-info {
+  font-family: Spectral;
+  font-size: 18px;
+ }
+</style>
+
+<div class="divider">
+      <h1 class="gallery_title">
+        Gallery
+      </h1>
+    </div>
+
+    <div class="galleries">
+      <div class="gallery_preview">
+        <img class="gallery-image" src="https://i.imgur.com/3fmZsRY.jpg" title="test-flower" />
+        <button class="buttons" onclick="window.location.href='gallery-flower.html'">
+          Flower
+        </button>
+      </div>
+
+      <div class="gallery_preview">
+        <img class="gallery-image" src="https://imgur.com/JDDdov4.jpg" title="test-sky"/>
+        <button class="buttons" onclick="window.location.href='gallery-sky.html'">
+          Sky
+        </button>
+      </div>
+
+      <div class="gallery_preview">
+        <img class="gallery-image" src="https://imgur.com/Daor00M.jpg" title="close-up">
+        <button class="buttons" onclick="window.location.href='gallery-closeup.html'">
+          Close Ups
+        </button>
+      </div>
+    </div>
+
+    <div class="divider">
+      <h3 class="gallery_head">
+        More Photos
+      </h3>
+    </div>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/C46XYji.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/kM208CK.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/a9uCgEC.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/OQgTLMd.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/4QL41NG.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/JuYuKjC.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+            <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/mhmmllu.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/wSRmNZ4.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/JAZ7GLf.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/Nk3PIgQ.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/9fml8P7.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="https://i.imgur.com/mAgqKvL.jpg">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery-entry">
+        <div class="entry-photo">
+          <img class="photos" src="">
+        </div>
+        <div class="entry-info">
+          <p>
+            example text
+          </p>
+        </div>
+      </div>
+
+    </div>
