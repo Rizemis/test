@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding-bottom: 500px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  height: 625px;
+}
+.signature {
+  position: relative;
+  transform: translateY(200px);
+  height: 250px;
+}
+.top-image {
+  filter: blur(3vh);  
+  -webkit-filter: blur(3vh); 
+  width: 100%;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index:2;
+}
+.top-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.break1 {
+  margin: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.break2 {
+  margin: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.welcome {
+  font-size: 46px;
+  text-align: center;
+}
+
+.welcome-text {
+  margin: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.current-assignment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.current-assignment-title {
+  font-weight: normal;
+  background-color: lightpink;
+}
+
+.current-assignment-container {
+  display: flex;
+  justify-content: center;
+}
+
+.current-assignment-image {
+  height: 300px;
+  background-color: rgb(173, 230, 187);
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.current-assignment-info {
+  background-color: lightseagreen;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.current-assignment-name {
+  background-color: lightsalmon;
+}
+
+.current-assignment-description {
+  background-color: lightcyan;
+}

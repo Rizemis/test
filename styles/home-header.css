@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  width: 216px;
+  flex-shrink: 0;
+}
+.logo {
+  width: 40px;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 4px;
+}
+.home {
+  font-family: Spectral;
+  font-size: 20px;
+  margin: 0px;
+  padding: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 605px;
+  flex-shrink: 0;
+}
+.button1{
+  background-color: black;
+  color: white;
+  font-family: Spectral;
+  font-size: 16px;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+}
+.button2, .button3, .button4 {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-family: Spectral;
+  font-size: 16px;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.search-icon {
+  width: 24px;
+}
+.search-button {
+  width: 48px;
+  height: 48px;
+  margin: 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+}
